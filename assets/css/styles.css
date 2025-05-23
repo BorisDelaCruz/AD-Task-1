@@ -3,6 +3,9 @@ body {
     background: linear-gradient(135deg, #e0eafc, #cfdef3); /* Gradient background */
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -44,13 +47,12 @@ main {
 }
 
 footer {
-    margin-top: 20px;
-    text-align: center;
+    margin-top: auto;
+    width: 100%;
+    background: #222;
     color: #fff;
-    font-size: 0.9em;
-    padding: 10px;
-    background-color: #333;
-    border-radius: 5px;
+    text-align: center;
+    padding: 1em 0;
 }
 
 ul {
@@ -62,7 +64,7 @@ li {
     margin: 10px 0;
 }
 
-.product-color {
+product-color {
     width: 50px;
     height: 50px;
     border-radius: 5px;
