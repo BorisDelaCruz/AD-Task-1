@@ -1,0 +1,20 @@
+{
+    "name": "h1h3/ad-task-1",
+    "description": "A wiki and fan site for the visual novel game Under the Sakura Tree.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "H1H3\\AdTask1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Boris Dela Cruz",
+            "email": "202311499@fit.edu.ph"
+        }
+    ],
+    "scripts": {
+        "start": "php -S localhost:8000"
+    },
+    "require": {}
+}

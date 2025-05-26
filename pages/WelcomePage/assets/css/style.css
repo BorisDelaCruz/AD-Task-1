@@ -1,0 +1,165 @@
+
+/* --- Welcome.php Specific Styles --- */
+.welcome-page {
+    background: linear-gradient(135deg, #ff66aa 0%, #66ccff 100%);
+    color: #fff;
+    padding: 0;
+}
+.welcome-page .osu-header {
+    text-align: center;
+    padding: 2rem 0 1rem 0;
+}
+.welcome-page .osu-logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #fff;
+    background: rgba(255,255,255,0.1);
+    border-radius: 70%;
+    width: 80px;
+    height: 80px;
+    line-height: 75px;
+    margin: 0 auto 1rem auto;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+}
+.welcome-page .osu-nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+.welcome-page .osu-nav a {
+    color: #fff;
+    background: rgba(0,0,0,0.15);
+    padding: 0.7rem 1.5rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+.welcome-page .osu-nav a:hover {
+    background: rgba(0,0,0,0.3);
+}
+.welcome-page .osu-section {
+    max-width: 700px;
+    margin: 2rem auto;
+    background: rgba(255,255,255,0.08);
+    border-radius: 1.5rem;
+    padding: 2rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+.welcome-page .osu-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+.welcome-page .osu-feature {
+    background: rgba(0,0,0,0.12);
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    min-width: 180px;
+    text-align: center;
+    flex: 1 1 180px;
+}
+.welcome-page .osu-footer {
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+    color: #fff;
+    opacity: 0.7;
+}
+
+/* --- Wiki.php Specific Styles --- */
+.wiki-page {
+    background: linear-gradient(135deg, #ffe0f0 0%, #cce6ff 100%);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.wiki-page header {
+    background: #ff66aa;
+    color: #fff;
+    padding: 2rem 0 1rem 0;
+    text-align: center;
+}
+.wiki-page .container {
+    display: flex;
+    flex: 1;
+    max-width: 1100px;
+    margin: 2rem auto;
+    gap: 2rem;
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    padding: 2rem;
+}
+.wiki-page aside {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    padding: 1.5rem;
+    min-width: 220px;
+    max-width: 260px;
+}
+.wiki-page main {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    padding: 2rem;
+    flex: 1;
+}
+.wiki-page h2 {
+    color: #ff66aa;
+}
+.wiki-page .character-list li {
+    margin-bottom: 0.5em;
+}
+.wiki-page .term-list li {
+    margin-bottom: 0.5em;
+}
+.wiki-page footer {
+    margin-top: auto;
+    width: 100%;
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+.wiki-page .nav-btns {
+    text-align: center;
+    margin: 20px 0;
+}
+.wiki-page .nav-btns a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 24px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.wiki-page .nav-btns a:first-child {
+    background: #ff66aa;
+    color: #fff;
+}
+.wiki-page .nav-btns a:last-child {
+    background: #66ccff;
+    color: #fff;
+}
+.wiki-page .wiki-images-row {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5em;
+    margin: 2em 0 0 0;
+}
+.wiki-page .wiki-images-row img {
+    max-width: 250px;
+    width: 100%;
+    border-radius: 1rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+    object-fit: cover;
+    aspect-ratio: 4/3;
+}

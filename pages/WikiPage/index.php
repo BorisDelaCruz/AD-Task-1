@@ -54,69 +54,13 @@ function showList($items, $descriptions) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RomCom Visual Novel Wiki</title>
-    <link rel="stylesheet" href="../assets/css/styles.css">
-    <style>
-        body {
-            background: linear-gradient(135deg, #ffe0f0 0%, #cce6ff 100%);
-            font-family: 'Segoe UI', Arial, sans-serif;
-            color: #333;
-            margin: 0;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-        header {
-            background: #ff66aa;
-            color: #fff;
-            padding: 2rem 0 1rem 0;
-            text-align: center;
-        }
-        .container {
-            display: flex;
-            flex: 1;
-            max-width: 1100px;
-            margin: 2rem auto;
-            gap: 2rem;
-        }
-        aside {
-            background: #fff;
-            border-radius: 1rem;
-            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-            padding: 1.5rem;
-            min-width: 220px;
-            max-width: 260px;
-        }
-        main {
-            background: #fff;
-            border-radius: 1rem;
-            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-            padding: 2rem;
-            flex: 1;
-        }
-        h2 {
-            color: #ff66aa;
-        }
-        .character-list li {
-            margin-bottom: 0.5em;
-        }
-        .term-list li {
-            margin-bottom: 0.5em;
-        }
-        footer {
-            margin-top: auto;
-            width: 100%;
-            background: #222;
-            color: #fff;
-            text-align: center;
-            padding: 1em 0;
-        }
-    </style>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body>
+<body class="wiki-page">
     <?php showHeader("RomCom Visual Novel Wiki"); ?>
-    <div class="nav-btns" style="text-align:center; margin: 20px 0;">
-        <a href="../index.php" style="display:inline-block; margin:0 10px; padding:10px 24px; background:#ff66aa; color:#fff; border:none; border-radius:25px; text-decoration:none; font-weight:bold;">Home</a>
-        <a href="Osu.php" style="display:inline-block; margin:0 10px; padding:10px 24px; background:#66ccff; color:#fff; border:none; border-radius:25px; text-decoration:none; font-weight:bold;">Welcome</a>
+    <div class="nav-btns">
+        <a href="/../index.php">Home</a>
+        <a href="../WelcomePage/index.php">Welcome</a>
     </div>
     <div class="container">
         <aside>
@@ -130,12 +74,12 @@ function showList($items, $descriptions) {
             <p>
                 Welcome to the official wiki for our romantic comedy visual novel! Here you'll find information about the characters, story routes, and unique features that make our game a heartwarming and hilarious adventure. Dive into the world of friendship, love, and unexpected twists!
             </p>
-            <div style="margin: 2em 0 0 0; display: flex; justify-content: flex-start; gap: 1.5em;">
-                <img src="../assets/img/GamePlays.png" alt="Sutemo in Classroom" style="max-width:250px; width:100%; border-radius:1rem; box-shadow:0 2px 12px rgba(0,0,0,0.10); margin-left:0; object-fit:cover; aspect-ratio:4/3;">
-                <img src="../assets/img/GamePlays1.png" alt="Sutemo Pout" style="max-width:250px; width:100%; border-radius:1rem; box-shadow:0 2px 12px rgba(0,0,0,0.10); object-fit:cover; aspect-ratio:4/3;">
+            <div class="wiki-images-row">
+                <img src="/assets/img/GamePlays.png" alt="Sutemo in Classroom">
+                <img src="/assets/img/GamePlays1.png" alt="Sutemo Pout">
             </div>
         </main>
     </div>
     <?php showFooter(); ?>
 </body>
-</html>
+</html> 

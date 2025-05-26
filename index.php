@@ -4,64 +4,6 @@
     <meta charset="UTF-8">
     <title>Makeine: Too Many Losing Heroines - Character Wiki</title>
     <link rel="stylesheet" href="./assets/css/styles.css">
-    <style>
-        body {
-            background: linear-gradient(135deg, #ffe0f0 0%, #cce6ff 100%);
-            font-family: 'Segoe UI', Arial, sans-serif;
-            color: #333;
-            margin: 0;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-        header {
-            background: #ff66aa;
-            color: #fff;
-            padding: 2rem 0 1rem 0;
-            text-align: center;
-        }
-        .container {
-            max-width: 900px;
-            margin: 2rem auto;
-            background: #fff;
-            border-radius: 1rem;
-            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-            padding: 2rem;
-        }
-        .character-list li {
-            margin-bottom: 1.2em;
-        }
-        .nav-btns {
-            text-align: center;
-            margin: 20px 0;
-        }
-        .nav-btns a {
-            display: inline-block;
-            margin: 0 10px;
-            padding: 10px 24px;
-            background: #ff66aa;
-            color: #fff;
-            border: none;
-            border-radius: 25px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: background 0.2s;
-        }
-        .nav-btns a:last-child {
-            background: #66ccff;
-        }
-        .nav-btns a:hover {
-            opacity: 0.85;
-        }
-        footer {
-            margin-top: auto;
-            width: 100%;
-            background: #222;
-            color: #fff;
-            text-align: center;
-            padding: 1em 0;
-        }
-    </style>
 </head>
 <body>
     <?php
@@ -82,7 +24,7 @@
         "Rina Hoshizora",
         "Yume Akiyama",
         "Kanae Minamoto"
-    ];
+    ];  
 
     // Dictionary
     $characterDescriptions = [
@@ -105,21 +47,21 @@
 
     showHeader("Makeine: Too Many Losing Heroines - Character Wiki");
 
-    // Navigation buttons
+    
     echo "<div class='nav-btns'>";
-    echo "<a href='pages/welcome.php'>Welcome</a>";
-    echo "<a href='pages/landing.php'>WIKI</a>";
+    echo "<a href='pages/welcomepage/index.php'>Welcome</a>";
+    echo "<a href='pages/wikipage/index.php'>Wiki</a>";
     echo "</div>";
 
     echo "<div class='container' style='display: flex; align-items: flex-start; gap: 2rem;'>";
 
-    // Add Sutemo's image on the left
+    
     echo "<aside style='flex:0 0 120px; text-align:center;'>";
     echo "<img src='assets/img/Sutemo Pout.png' alt='Sutemo Hanabira' style='max-width:100px; border-radius:1rem; box-shadow:0 2px 12px rgba(0,0,0,0.10); margin-bottom:1rem;'>";
     echo "<div style='font-weight:bold; color:#ff66aa; margin-top:0.5rem;'>Sutemo Hanabira</div>";
     echo "</aside>";
 
-    // Main content on the right
+    
     echo "<div style='flex:1'>";
     echo "<h2>About the Game</h2>";
     echo "<p>
