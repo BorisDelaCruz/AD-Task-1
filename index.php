@@ -57,7 +57,7 @@
 
     
     echo "<aside style='flex:0 0 120px; text-align:center;'>";
-    echo "<img src='assets/img/Sutemo Pout.png' alt='Sutemo Hanabira' style='max-width:100px; border-radius:1rem; box-shadow:0 2px 12px rgba(0,0,0,0.10); margin-bottom:1rem;'>";
+    echo "<img src='./assets/img/Sutemo Pout.png' alt='Sutemo Hanabira' style='max-width:100px; border-radius:1rem; box-shadow:0 2px 12px rgba(0,0,0,0.10); margin-bottom:1rem;'>";
     echo "<div style='font-weight:bold; color:#ff66aa; margin-top:0.5rem;'>Sutemo Hanabira</div>";
     echo "</aside>";
 
